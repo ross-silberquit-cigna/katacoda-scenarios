@@ -1,7 +1,5 @@
-This is your first step.
+<pre class="file" data-filename="app.py" data-target="replace">
+print 'hello world'
+</pre>
 
-## Task
-
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+Run `python app.py` {{execute}}
