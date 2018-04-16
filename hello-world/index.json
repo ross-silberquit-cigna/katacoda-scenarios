@@ -23,7 +23,7 @@
           "target": "~/"
         }
       ]
-    }
+    },
     "files": [
     "app.py",
     "export.csv"
