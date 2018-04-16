@@ -25,8 +25,7 @@
       ]
     },
     "files": [
-    "app.py",
-    "export.csv"
+    "app.py"
   ],
   "environment": {
     "showdashboard": true,
