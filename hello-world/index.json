@@ -17,7 +17,7 @@
     }
   },
     "files": [
-    "app.js"
+    "app.py"
   ],
   "environment": {
     "showdashboard": true,
