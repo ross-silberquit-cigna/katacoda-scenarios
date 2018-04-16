@@ -2,4 +2,4 @@
 print 'hello world'
 </pre>
 
-Run `python app.py` {{execute}}
+Run `python app.py`{{execute}}
