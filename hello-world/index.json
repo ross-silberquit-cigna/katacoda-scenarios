@@ -16,6 +16,9 @@
       "text": "finish.md"
     }
   },
+    "files": [
+    "app.js"
+  ],
   "environment": {
     "showdashboard": true,
     "uilayout": "terminal",
@@ -23,8 +26,5 @@
   },
   "backend": {
     "imageid": "python"
-  },
-  "files": [
-    "app.js"
-  ]
+  }
 }
