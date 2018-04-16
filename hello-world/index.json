@@ -14,9 +14,8 @@
     },
     "finish": {
       "text": "finish.md"
-    }
-  },
-  "assets": {
+    },
+    "assets": {
       "client": [
         {
           "file": "export.csv",
@@ -29,8 +28,9 @@
           "target": "~/"
         }
       ]
-    },
-    "files": [
+    }
+  },
+  "files": [
     "app.py"
   ],
   "environment": {
