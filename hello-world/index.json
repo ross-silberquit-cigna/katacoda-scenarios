@@ -22,6 +22,12 @@
           "file": "export.csv",
           "target": "~/"
         }
+      ],
+      "host01": [
+        {
+          "file": "export.csv",
+          "target": "~/"
+        }
       ]
     },
     "files": [
