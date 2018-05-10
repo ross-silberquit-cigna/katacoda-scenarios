@@ -14,14 +14,10 @@ First step is read the csv file with Python. Good thing there is a built in modu
 import csv
 </pre>
 
-Run `python app.py`{{execute}}
-
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 2. load in csv file">
 # load in csv file
 file = open("export.csv")
 </pre>
-
-Run `python app.py`{{execute}}
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 3. print the first line">
 # print out the first line
