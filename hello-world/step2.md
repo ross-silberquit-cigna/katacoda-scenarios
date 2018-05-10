@@ -10,3 +10,4 @@ csv = csv.DictReader(file_handler)
 print(csv.fieldnames)
 </pre>
 
+Run `python app.py`{{execute}}
