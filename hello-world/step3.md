@@ -6,7 +6,6 @@ for row in csv:
     print(row)
 </pre>
 
-<pre class="file" data-filename="app.py" data-target="insert" data-marker="import csv">
-import csv
+<pre class="file" data-filename="app.py" data-target="append" data-marker="import csv">
 from __future__ import print_function
 </pre>
