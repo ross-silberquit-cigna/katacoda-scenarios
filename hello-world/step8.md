@@ -35,8 +35,6 @@ print(float(total_done) / float(total))
 # TODO: 8. graph it! read docs plotly
 </pre>
 
-<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 8. graph it! read docs plotly">
-pip install plotly -u
-</pre>
-
 Run `python app.py`{{execute}}
+
+Run `pip install plotly --user`{{execute}}
