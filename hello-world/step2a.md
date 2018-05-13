@@ -9,25 +9,23 @@ csv = csv.DictReader(file_handler)
 
 print(csv.fieldnames)
 
-# TODO: 5. learn how to print out every row - first time use readline restart here after reading docs!! theres gotta be a better way!!!
+# TODO: redo steps 1-4 after reading the docs
 
-# TODO: redo steps 1-5
+# TODO: 5. print out specific field 'state'
 
-# TODO: 6. print out specific field 'state'
+# TODO: 6. get count of number of rows where the field 'state' is 'done'
 
-# TODO: 7. get count of number of rows where the field 'state' is 'done'
+# TODO: 7. print out percentage of done compared to total stories
 
-# TODO: 8. print out percentage of done compared to total stories
+# TODO: 8. print out percentage of done compared to total stories - realize we need float()
 
-# TODO: 9. print out percentage of done compared to total stories - realize we need float()
+# TODO: 9. graph it!  read docs plotly
 
-# TODO: 10. graph it!  read docs plotly
+# TODO: 10. pip install plotly
 
-# TODO: 11. pip install plotly
+# TODO: 11. import plotly & create graph data
 
-# TODO: 12. import plotly & create graph data
+# TODO: 12. simple http server
 
-# TODO: 13. simple http server
-
-# TODO: 14. run and open browser
+# TODO: 13. run and open browser
 </pre>

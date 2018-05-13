@@ -1,11 +1,15 @@
 Next lets print out the rows!
 
-<pre class="file" data-filename="app.py" data-target="append">
+<pre class="file" data-filename="app.py" data-target="replace">
 
-for row in csv:
-    print(row)
-</pre>
+# TODO: redo steps 1-4 after reading the docs
 
-<pre class="file" data-filename="app.py" data-target="append" data-marker="import csv">
-from __future__ import print_function
+import csv
+
+file_handler = open("export.csv")
+
+csv = csv.DictReader(file_handler)
+
+print(csv.fieldnames)
+
 </pre>
