@@ -1,11 +1,44 @@
+<pre class="file" data-filename="app.py" data-target="replace">
+# Read in csv with a module, print out field names and lines
+import csv
 
-# TODO: 9. graph it!  read docs plotly
+file_handler = open("export.csv")
 
-# TODO: 10. pip install plotly
+csv = csv.DictReader(file_handler)
 
-# TODO: 11. import plotly & create graph data
+print(csv.fieldnames)
 
+# TODO: 7. print out percentage of done compared to total stories
 
-# TODO: 12. simple http server
+# TODO: 8. print out percentage of done compared to total stories - realize we need float()
+</pre>
 
-# TODO: 13. run and open browser
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 7. print out percentage of done compared to total stories">
+# print out specific field 'state'
+
+total_done = 0
+
+total = 0
+
+for row in csv:
+
+    total += 1
+
+    for field in csv.fieldnames:
+
+        item = row[field]
+
+        if field == "State":
+
+            if row[field] == "Done":
+
+                total_done += 1
+
+print(total_done)
+
+print(total)
+
+print(total_done / total)
+</pre>
+
+Run `python app.py`{{execute}}
