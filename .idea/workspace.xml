@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498decca-33d6-43a5-8ef8-931c0421aa6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello-world/step8.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world/step6.md" afterPath="$PROJECT_DIR$/hello-world/step6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world/index.json" afterPath="$PROJECT_DIR$/hello-world/index.json" />
     </list>
     <ignored path="katacoda-scenarios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello-world/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -64,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step6.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step6.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world/step6.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -143,10 +142,10 @@
         <option value="$PROJECT_DIR$/hello-world/Step4.md" />
         <option value="$PROJECT_DIR$/hello-world/step3.md" />
         <option value="$PROJECT_DIR$/hello-world/step5.md" />
-        <option value="$PROJECT_DIR$/hello-world/index.json" />
         <option value="$PROJECT_DIR$/hello-world/step4.md" />
         <option value="$PROJECT_DIR$/hello-world/step10.md" />
         <option value="$PROJECT_DIR$/hello-world/step6.md" />
+        <option value="$PROJECT_DIR$/hello-world/index.json" />
       </list>
     </option>
   </component>
@@ -880,14 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-world/step4.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -948,6 +939,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>
