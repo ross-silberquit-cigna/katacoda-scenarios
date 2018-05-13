@@ -1,4 +1,4 @@
-Next lets print out the rows!
+There's gotta be a better way! And there is, Kevin!
 
 <pre class="file" data-filename="app.py" data-target="replace">
 
@@ -13,3 +13,5 @@ csv = csv.DictReader(file_handler)
 print(csv.fieldnames)
 
 </pre>
+
+Run `python app.py`{{execute}}
