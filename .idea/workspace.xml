@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="498decca-33d6-43a5-8ef8-931c0421aa6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world/index.json" afterPath="$PROJECT_DIR$/hello-world/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world/step10.md" afterPath="$PROJECT_DIR$/hello-world/step10.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world/step9.md" afterPath="$PROJECT_DIR$/hello-world/step9.md" />
-    </list>
+    <list default="true" id="498decca-33d6-43a5-8ef8-931c0421aa6b" name="Default" comment="" />
     <ignored path="katacoda-scenarios.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
