@@ -1,5 +1,5 @@
 
-# TODO: 9. graph it!  read docs plotly
+# TODO: 9. graph it! read docs plotly
 
 # TODO: 10. pip install plotly
 

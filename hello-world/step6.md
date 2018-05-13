@@ -10,7 +10,6 @@ print(csv.fieldnames)
 
 # TODO: 7. print out percentage of done compared to total stories
 
-# TODO: 8. print out percentage of done compared to total stories - realize we need float()
 </pre>
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 7. print out percentage of done compared to total stories">
