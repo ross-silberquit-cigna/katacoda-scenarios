@@ -7,6 +7,7 @@ file_handler = open("export.csv")
 csv = csv.DictReader(file_handler)
 
 print(csv.fieldnames)
+
 # TODO: 5. print out specific field 'state'
 
 # TODO: 6. get count of number of rows where the field 'state' is 'done'
@@ -22,6 +23,19 @@ for row in csv:
     for field in csv.fieldnames:
         if field == "State":
             print(row[field])
+</pre>
+
+Run `python app.py`{{execute}}
+
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 6. get count of number of rows where the field 'state' is 'done'">
+# print out specific field 'state'
+total_done = 0
+for row in csv:
+    for field in csv.fieldnames:
+        if field == "State":
+            if row[field] == "Done":
+                total_done += 1
+print(total_done)
 </pre>
 
 Run `python app.py`{{execute}}
