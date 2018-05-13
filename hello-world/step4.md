@@ -15,3 +15,5 @@ for row in csv:
         if field == "State":
             print(row[field])
 </pre>
+
+Run `python app.py`{{execute}}
