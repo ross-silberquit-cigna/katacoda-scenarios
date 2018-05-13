@@ -15,6 +15,10 @@
       {
         "title": "Step 3 - Python",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Python",
+        "text": "step4.md"
       }],
     "intro": {
       "text": "intro.md",
