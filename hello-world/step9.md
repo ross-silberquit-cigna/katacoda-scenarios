@@ -30,7 +30,7 @@ print(float(total_done) / float(total))
 # TODO: import plotly and create graph data
 </pre>
 
-<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 9. import plotly and create graph data">
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: import plotly and create graph data">
 from plotly.offline import plot
 
 import plotly.graph_objs as go
