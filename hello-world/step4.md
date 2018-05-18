@@ -1,22 +1,26 @@
 <pre class="file" data-filename="app.py" data-target="replace">
-# Read in csv with a module, print out field names and lines
+# import the new module
 import csv
 
+# load in csv file
 file_handler = open("export.csv")
 
-csv = csv.DictReader(file_handler)
+# use the new DictReader class from the csv module we've just read about
+csv_reader = csv.DictReader(file_handler)
 
-print(csv.fieldnames)
+# print out the headers
+print(csv_reader.fieldnames)
 
-# TODO: 5. print out specific field 'state'
 
-# TODO: 6. get count of number of rows where the field 'state' is 'done'
+# TODO: print out specific field 'state'
 
-# TODO: 7. print out percentage of done compared to total stories
+# TODO: get count of number of rows where the field 'state' is 'done'
+
+# TODO: print out percentage of done compared to total stories
 
 </pre>
 
-<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: 5. print out specific field 'state'">
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print out specific field 'state'">
 # print out specific field 'state'
 for row in csv:
     for field in csv.fieldnames:
