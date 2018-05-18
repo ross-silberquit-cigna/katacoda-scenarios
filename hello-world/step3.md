@@ -9,11 +9,8 @@ A quick search shows us Python's standard library has a [csv module](https://doc
 # TODO: use the new DictReader class from the csv module we've just read about
 
 # TODO: print out the headers
-print(csv_reader.fieldnames)
 
 # TODO: print out the rows
-for row in csv_reader:
-    print(row)
 </pre>
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: refactor our code">
