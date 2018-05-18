@@ -22,8 +22,8 @@ print(csv_reader.fieldnames)
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print out specific field 'state'">
 # print out specific field 'state'
-for row in csv:
-    for field in csv.fieldnames:
+for row in csv_reader:
+    for field in csv_reader.fieldnames:
         if field == "State":
             print(row[field])
 </pre>
