@@ -27,7 +27,7 @@ Run `python app.py`{{execute}}
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print the rest of the file">
 # print the rest of the csv file
-for line in file:
+for line in file_handler:
     print(line)
 </pre>
 
