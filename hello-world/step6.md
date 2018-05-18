@@ -21,9 +21,9 @@ print(csv_reader.fieldnames)
 
 total_done = 0
 total = 0
-for row in csv:
+for row in csv_reader:
     total += 1
-    for field in csv.fieldnames:
+    for field in csv_reader.fieldnames:
         item = row[field]
         if field == "State":
             if row[field] == "Done":

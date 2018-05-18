@@ -21,8 +21,8 @@ print(csv_reader.fieldnames)
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: get count of number of rows where the field 'state' is 'done'">
 # print out specific field 'state'
 total_done = 0
-for row in csv:
-    for field in csv.fieldnames:
+for row in csv_reader:
+    for field in csv_reader.fieldnames:
         if field == "State":
             if row[field] == "Done":
                 total_done += 1
