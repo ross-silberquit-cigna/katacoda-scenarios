@@ -14,12 +14,12 @@ The first step is to read in the file and then print the first line (the headers
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: load in csv file">
 # load in csv file
-file = open("export.csv")
+file_handler = open("export.csv")
 </pre>
 
 <pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print the first line">
 # print out the first line
-header = file.readline()
+header = file_handler.readline()
 print(header)
 </pre>
 

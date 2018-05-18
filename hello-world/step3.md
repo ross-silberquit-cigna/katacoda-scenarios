@@ -1,17 +1,46 @@
 There's gotta be a better way! And there is, Kevin!
 
+A quick search shows us Python's standard library has a [csv module](https://docs.python.org/2/library/csv.html) that supports reading csv files.
+
 <pre class="file" data-filename="app.py" data-target="replace">
 
-# TODO: redo steps 1-4 after reading the docs
+# TODO: refactor our code
 
+# TODO: use the new DictReader class from the csv module we've just read about
+
+# TODO: print out the headers
+print(csv_reader.fieldnames)
+
+# TODO: print out the rows
+for row in csv_reader:
+    print(row)
+</pre>
+
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: refactor our code">
+# import the new module
 import csv
 
+# load in csv file
 file_handler = open("export.csv")
+</pre>
 
-csv = csv.DictReader(file_handler)
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: use the new DictReader class from the csv module we've just read about">
+# use the new DictReader class from the csv module we've just read about
+csv_reader = csv.DictReader(file_handler)
+</pre>
 
-print(csv.fieldnames)
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print out the headers">
+# print out the headers
+print(csv_reader.fieldnames)
+</pre>
 
+Run `python app.py`{{execute}}
+
+<pre class="file" data-filename="app.py" data-target="insert" data-marker="# TODO: print out the rows">
+# print out the rows
+
+for row in csv_reader:
+    print(row)
 </pre>
 
 Run `python app.py`{{execute}}
