@@ -1,3 +1,5 @@
+cd /home/scrapbook/tutorial
+
 echo "# TODO: load in csv file
 
 # TODO: print the first line
