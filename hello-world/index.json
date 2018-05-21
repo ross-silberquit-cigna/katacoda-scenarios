@@ -1,13 +1,14 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Foundations 2018",
+  "description": "Intro to Programming",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "30 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    },
+    "steps": [
+      {
+        "title": "Step 1 - Run Command",
+        "text": "step1.md"
+      },
       {
         "title": "Step 2 - Python",
         "text": "step2.md",
@@ -40,7 +41,8 @@
       {
         "title": "Step 9 - Python",
         "text": "step9.md"
-      }],
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
