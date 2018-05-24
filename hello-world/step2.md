@@ -4,6 +4,7 @@ When we look at the csv file, we can see that the headers of the data are stored
 
 The first step is to read in the file and then print the first line (the headers) and then the rest of the lines (the data)
 
+Run `clear`{{execute}}
 <pre class="file" data-filename="app.py" data-target="replace">
 # TODO: load in csv file
 
