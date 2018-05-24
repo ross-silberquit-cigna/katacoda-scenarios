@@ -1,3 +1,4 @@
+Run `clear`{{execute}}
 <pre class="file" data-filename="app.py" data-target="replace">
 # import the new module
 import csv
