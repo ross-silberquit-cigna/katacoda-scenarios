@@ -16,7 +16,8 @@
       },
       {
         "title": "Step 3 - Python",
-        "text": "step3.md"
+        "text": "step3.md",
+        "courseData": "clear.sh"
       },
       {
         "title": "Step 4 - Python",
