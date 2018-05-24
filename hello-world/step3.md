@@ -2,6 +2,7 @@ There's gotta be a better way! And there is, Kevin!
 
 A quick search shows us Python's standard library has a [csv module](https://docs.python.org/2/library/csv.html) that supports reading csv files.
 
+Run `clear`{{execute}}
 <pre class="file" data-filename="app.py" data-target="replace">
 
 # TODO: refactor our code
